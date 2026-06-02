@@ -1,6 +1,6 @@
 # rozeraf
 
-**Full-Stack разработчик · JavaScript · TypeScript**
+**Full-stack разработчик**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=rozeraf&style=flat-square&color=blue)](https://github.com/rozeraf)
 <a href="https://t.me/rozeraf"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white"/></a>
@@ -8,79 +8,52 @@
 
 ---
 
-## О себе
-
-Full-stack разработчик. Делаю веб-приложения, CLI-утилиты и автоматизирую рутину. Основной стек — JavaScript/TypeScript, в качестве вторичного языка использую Python.
-
-Слежу за качеством кода, уделяю внимание интерфейсу и пользовательскому опыту.
-
----
-
 ## Проекты
 
+### [notes-app](https://github.com/rozeraf/notes-app)
+Образовательный проект для отработки Full-stack инфраструктуры.
+- Next.js 15, Tailwind CSS v4
+- Neon (Postgres), Drizzle ORM
+- GitLab CI/CD, автоматизированные миграции
+
+### [files-dashboard](https://github.com/rozeraf/files-dashboard)
+Локальный дашборд для организации и полнотекстового поиска по файлам.
+- Go, SQLite FTS5
+- React, TanStack Query, Zustand
+- Сборка в один бинарник для self-hosting
+
 ### [localapi](https://github.com/rozeraf/localapi)
-Production-архитектура для локальной разработки на **React + Bun + Nginx**
-
-- Frontend: React (Vite) + TypeScript, раздаётся как статика через Nginx
-- Backend: Bun HTTP Server, проксируется через Nginx
-- SSL/HTTP2, gzip-сжатие, поддомены (`rand.localhost`, `api.localhost`)
-- Эталонная схема: статика через Nginx, API через reverse proxy, React Router через fallback
-
-### [deepcode](https://github.com/rozeraf/deepcode)
-Open-source MVP альтернатива Claude Code на **Python + OpenRouter API**
-
-- Пошаговая генерация кода
-- Гибкая автоматизация задач
-- Встроенные ограничения безопасности
+Шаблон Production-архитектуры для локальной разработки через Nginx.
+- React + Bun + Nginx
+- SSL/HTTP2, проксирование API, статика
 
 ### [autocommit](https://github.com/rozeraf/autocommit)
-Генератор commit-сообщений на основе ИИ — **Python + OpenRouter API**
-
-- Автоматическая генерация сообщений по диффу
+CLI-утилита для генерации осмысленных commit-сообщений через LLM.
+- Анализ git diff
 - Соответствие Conventional Commits
-- Интерактивное превью перед применением
-- Красивый терминальный интерфейс на rich
+- Интерактивный терминальный интерфейс
 
 ### [autowebhook](https://github.com/rozeraf/autowebhook)
-Node.js/Bun библиотека для управления туннелями
-
-- ngrok и localhost.run из коробки
-- Стабильные публичные URL для локальной разработки
-- Фоновый мониторинг с автоперезапуском
-- Простой API для нескольких туннелей одновременно
+Библиотека для программного управления туннелями (ngrok, localhost.run).
+- Автоматизация публичных URL для вебхуков
+- Фоновый мониторинг и автоперезапуск
 
 ---
 
 ## Стек
 
-**Основные языки**
-- JavaScript / TypeScript
-- Python (вторичный)
+- **Языки:** TypeScript (основной); Rust, Python, C
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend:** Node.js, Bun, Go
+- **Базы:** PostgreSQL (Supabase, Neon), SQLite
+- **API:** REST, GraphQL
 
-**Frontend**
-- React, Vite
-- TailwindCSS
+## Окружение
 
-**Backend и базы данных**
-- Node.js / Bun
-- PostgreSQL, Supabase
-- REST API
-
-**Окружение**
-- Arch Linux, Hyprland
-- Zsh, NeoVim, VS Code
-- Git
-
----
-
-## Компетенции
-
-- Full-stack разработка от UI до backend
-- Проектирование и интеграция REST API
-- CLI-инструменты и автоматизация
-- Работа с базами данных: схемы, запросы, моделирование
-- Базовые практики CI/CD и деплоя
-- Интеграция ИИ в инструменты разработки
+- **OS:** Arch Linux
+- **WM:** niri (noctalia v5)
+- **Shell:** Zsh
+- **Editors:** Zed, Neovim
 
 ---
 
